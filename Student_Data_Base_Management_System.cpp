@@ -5,7 +5,7 @@
 
 FILE *fp;
 char name[1000];
-int id, att, maths, chem, pps, bio, psp, phy, lang, nys;
+int id, att, maths, chem, pps, bio, phy, lang, nys;
 
 // Function to validate input
 void ValidateInput(const char *prompt, int *value, int min, int max) {
